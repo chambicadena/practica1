@@ -1,0 +1,9 @@
+git clone https://gitlab.softwarelibre.gob.bo/capacitacion/nestjs-base-backend.git mi-proyecto
+cd mi-proyecto
+
+npm install
+
+cp .env.example .env
+
+npm run db:create
+npm run start:dev
